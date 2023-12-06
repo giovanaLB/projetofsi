@@ -1,0 +1,613 @@
+body {
+    background-color: white;
+    margin: auto;
+}
+
+.topo {
+    width: 100%;
+    height: 80px;
+    background-color: #0B2653;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.busca {
+    width: auto;
+    height: auto; 
+    background: linear-gradient(to bottom, #214D96, #132C55);
+    margin: 0;
+    padding: 10px; 
+    border: 0;
+    box-sizing: border-box; 
+}
+
+@media (max-width: 768px) {
+    .topo {
+        height: 60px; 
+    }
+
+    .busca {
+        padding: 5px; 
+    }
+
+}
+
+.navegar {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    background-color: #132C55;
+    text-align: right;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.botao {
+    width: 200px;
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #4671B5;
+    color: #fff;
+    border: 1px solid white;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    cursor: pointer;
+    margin-right: 0px;
+    margin-left: -4px;
+    font-size: 16px;
+    font-weight: bold; 
+    text-decoration: none;
+}
+
+.botao1 {
+    padding: 12px 20px;
+    padding-right: 115px;
+    background-color: #1F4E94;
+    color: #fff;
+    border: 1px solid white;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;  
+    margin-left: -4px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+}
+
+.botao:active {
+    background-color: #fff;
+    color: black;
+}
+
+p {
+    display: inline-block;
+    margin: 0%;
+  }
+
+.botao1, p, a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+h2 {
+    padding-left: 215px;
+    margin: 0%;
+    font-size: 15px;
+    color: #63953C;
+    margin-top: -7px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-left: 10px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.destacado {
+    color: #AD7B48;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.destacado1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.botao2 {
+    display: inline-flex;
+    padding: 12px 20px;
+    background-color: #4671B5;
+    color: #fff;
+    border: 1px solid white;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    cursor: pointer;
+    margin-right: 0px;
+    margin-left: -4px;
+    font-size: 16px;
+    font-weight: bold; 
+    text-decoration: none;
+    padding-right: 208px;
+}
+
+.botao2:active {
+    background-color: #fff;
+    color: black;
+}
+
+.comunidade {
+    display: inline-flex;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(204, 203, 203);
+    border-right: 1px solid rgb(204, 203, 203);
+    padding: 11px 20px;
+    padding-left: 50px;
+    margin-left: 16px;
+    padding-right: 140px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.comunidade, p a {
+    color: #67859D;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.comunidade2 {
+    width: 300px;
+    display: block;
+    border-bottom: 1px solid rgb(204, 203, 203);
+    border-right: 1px solid rgb(204, 203, 203);
+    padding: 11px 20px;
+    padding-left: 50px;
+    margin-left: 16px;
+    box-shadow: 4px 0 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.comunidade2 p {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.new {
+    color: red;
+    padding-left: 10px;
+}
+
+.ano {
+    color: black;
+}
+
+.comunidade3 {
+    width: 300px;
+    display: block;
+    border-bottom: 1px solid rgb(204, 203, 203);
+    border-right: 1px solid rgb(204, 203, 203);
+    padding: 11px 20px;
+    padding-left: 50px;
+    margin-left: 16px;
+    box-shadow: 4px 0 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.comunidade3 p {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.ano1 {
+    color: black;
+}
+
+.new1 {
+    color: red;
+    padding-left: 10px;
+}
+
+.evento {
+    color: #3D6FAA;
+}
+
+.comunidade4 {
+    width: 300px;
+    display: block;
+    border-bottom: 1px solid rgb(204, 203, 203);
+    border-right: 1px solid rgb(204, 203, 203);
+    padding: 11px 20px;
+    padding-left: 50px;
+    margin-left: 16px;
+    box-shadow: 4px 0 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.comunidade4 p {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.a1 {
+    padding: 10px;
+}
+
+.a2 {
+    padding: 25px;
+}
+
+.a3 {
+    padding: 25px;
+}
+
+.a4 {
+    padding: 25px;
+}
+
+.a5 {
+    padding: 25px;
+}
+
+.barra-pesquisa {
+    padding: 10px;
+    width: 500px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.botao-pesquisa {
+    width: 200px;
+    margin-left: 0; 
+    padding: 5px 15px;
+    background-color: #F99428;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1)) #F99428;
+    transition: background-color 0.3s ease;
+}
+
+.botao-pesquisa:active {
+    background-color: #9C701B;
+}
+
+.div-busca {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    margin: -150px 20px -34px 1100px;
+}
+
+.comunidade5 {
+    width: 346px;
+    display: block;
+    border-bottom: 1px solid rgb(204, 203, 203);
+    border-right: 1px solid rgb(204, 203, 203);
+    padding: 11px 20px;
+    padding-left: 50px;
+    margin-left: 16px;
+    padding: 12px;
+    background-color: #BECDEE;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.texto-abaixo-botao, h6 {
+    margin-left: 585px;
+    position: absolute; 
+    bottom: -55px; 
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #F99428;
+}
+
+.seletor-opcoes {
+    padding: 5px;
+    width: 160px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    margin-left: 930px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.linha {
+    border-bottom: 1px solid rgb(204, 203, 203);
+    margin-top: -615px;
+    margin-left: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.perfil {
+    background-color: white;
+    padding: 282px;
+    padding-top: 20px;
+    padding-bottom: 130px;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 410px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1), 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.imgF {
+    width: 60%;
+    height: auto;
+    margin-top: -65px;
+    margin-left: -130px;
+}
+
+.perfil p {
+    text-decoration: black;
+    color: black;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.selo {
+    width: 8%;
+    height: auto;
+    margin-left: 265px;
+    margin-top: -310px;
+}
+
+p.info {
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.data1 {
+    color: #67859D;
+    margin-left: 13px;
+}
+
+.data2 {
+    color: #67859D;
+    margin-left: 30px;
+}
+
+.data3 {
+    color: #67859D;
+    margin-left: 13px;
+}
+
+
+.data2::after {
+    content: "\A Burien, WA";
+    white-space: pre;
+    display: block;
+    color: black;
+    font-size: 20px;
+    margin-top: -25px;
+    margin-left: 95px;
+}
+
+.data3::after {
+    content: "\A Class of 1987";
+    white-space: pre;
+    display: block;
+    color: #67859D;
+    font-size: 20px;
+    margin-top: -90px;
+    margin-left: 95px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.perfil .info.interests {
+    margin-top: 40px; 
+}
+
+.data4 {
+    color: #67859D;
+    margin-left: 96px;
+}
+
+.data5::after {
+    content: "\A Cats";
+    white-space: pre;
+    display: block; 
+    color: #67859D;
+    font-size: 20px;
+    margin-top: -49px;
+    margin-left: 95px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.antesdepois {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1), 0 -2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 20px 20px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: -85px;
+    margin-right: 1145px;
+    margin-left: 432px;
+}
+
+h1 {
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0%;
+    text-align: center;
+}
+
+.depois {
+    color: #67859D;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.botoesbaixo {
+    display: inline-flex;
+    margin-left: 800px;
+    position: relative;
+    top: -55px;
+}
+
+.botao5 {
+    width: 200px;
+    padding: 11px 20px;
+    margin: 0 10px;
+    display: inline-block;
+    padding: 11px 20px;
+    background-color: #E7E5E6;
+    color: #3E6DA1;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    cursor: pointer;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 16px;
+    font-weight: bold; 
+    text-decoration: none;
+}
+
+.botao5:active {
+    background-color: #fff;
+    color: black;
+}
+
+.notificacao {
+    background-color: white;
+    padding: 10px;
+    margin-top: -580px;
+    margin-left: 1200px;
+    margin-right: 100px;
+    line-height: 40px;
+    color: #67859D;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.notify {
+    box-shadow: 1px 5px 5px -5px rgba(0, 0, 0, 0.5), 0 -5px 2px -5px rgba(0, 0, 0, 0.5);
+}
+
+.nome1 {
+    color: black;
+}
+
+.quant1 {
+    background-color: white;
+    margin-top: -320px;
+    margin-left: 1750px;
+    margin-right: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #67859D;
+}
+
+.quant2 {
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 1750px;
+    margin-right: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #67859D;
+}
+
+.quant3 {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 1750px;
+    margin-right: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #67859D;
+}
+
+.quant4 {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 1750px;
+    margin-right: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #67859D;
+}
+
+.quant5 {
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 1750px;
+    margin-right: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #67859D;
+}
+
+.quant6 {
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 1750px;
+    margin-right: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #67859D;
+}
+
+.quant7 {
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 1750px;
+    margin-right: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #67859D;
+}
+
+.grafico {
+    width: auto;
+    height: auto;
+    margin-left: 1208px;
+    margin-top: 70px;
+    margin-right: 400px;
+}
+
+.resultados {
+    width: 380px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 1208px;
+    margin-right: 350px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+}
+
+.ultimo {
+    color: #67859D;
+    font-weight: bold;
+}
+
+.att {
+    color: black;
+    font-weight: bold;
+}
